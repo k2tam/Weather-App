@@ -18,7 +18,7 @@ class CurrentWeatherViewModel: ObservableObject{
         var iconUrlStr: String?
  
         if modelData.weather != nil{
-            iconCode = modelData.weather!.current.weather[currentHour].icon
+            iconCode = modelData.weather!.current.weather[0].icon
             
             iconUrlStr = "https://openweathermap.org/img/wn/\(iconCode!)@2x.png"
             
