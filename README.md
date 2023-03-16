@@ -1,6 +1,6 @@
 # Weather-App
 
-##Achived
+## Achieved
 
 Using RestApi to get weather data and update UI
 
